@@ -128,6 +128,13 @@
       display: grid; place-items: center;
       overflow: hidden;
     }
+    .qr { background: #fff; padding: 6px; }           /* optional padding for breathing room */
+    .qr img, .qr canvas {
+     width: 100% !important;  /* override inline width from the library */
+     height: auto !important; /* keep aspect ratio */
+     display: block;
+    }
+    
     .card-footer { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
 
     /* Print styling */
