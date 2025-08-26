@@ -134,7 +134,7 @@
      height: auto !important; /* keep aspect ratio */
      display: block;
     }
-    
+
     .card-footer { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
 
     /* Print styling */
@@ -156,7 +156,9 @@
         page-break-inside: avoid;
       }
       .title { color: #000; }
-      .url { color: #111; }
+      .url { color: #111; 
+             display: none !important;
+            }
       .qr { background: #fff; border: 1px solid #000; }
     }
   </style>
